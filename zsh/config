@@ -78,6 +78,4 @@ export PATH="$PATH:/home/kirkm/.local/share/JetBrains/Toolbox/scripts:/home/kirk
 
  typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
 
- eval "$(fasd --init auto)"
-
-pokemon-colorscripts -r
+pokemon-colorscripts -r --no-title
